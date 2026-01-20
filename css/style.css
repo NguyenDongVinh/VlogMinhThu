@@ -10,11 +10,21 @@ h1 {
   font-size: 60px;
   /* -webkit-text-stroke-color: aliceblue; */
 }
-img {
-  transition: 1.5s;
-}
 input :checked ~ img {
   /* display: none; */
   opacity: 0;
   visibility: hidden;
+}
+img {
+  transition: 1.5s;
+}
+.mo-bai,
+.than-bai,
+.ket-bai:link {
+  color: blue;
+}
+.mo-bai,
+.than-bai,
+.ket-bai:visited {
+  color: rgb(254, 3, 3);
 }
